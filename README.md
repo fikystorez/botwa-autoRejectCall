@@ -24,7 +24,9 @@ Bot WhatsApp ringan dan responsif yang dirancang khusus untuk menolak panggilan 
 Anda tidak perlu *setting* manual satu per satu! Cukup siapkan VPS dengan OS **Ubuntu** atau **Debian**, lalu *copy* dan *paste* perintah di bawah ini ke terminal SSH VPS Anda:
 
 ```bash
-apt-get update && apt-get install -y wget && wget -O- https://raw.githubusercontent.com/fikystorez/botwa-autoRejectCall/refs/heads/main/install.sh | bash
+wget -O install.sh https://raw.githubusercontent.com/fikystorez/botwa-autoRejectCall/refs/heads/main/install.sh
+chmod +x install.sh
+./install.sh
 
 ```
 
